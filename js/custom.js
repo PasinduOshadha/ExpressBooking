@@ -206,7 +206,7 @@
 			jQuery(".logo-header img").attr("src", "images/logo.png");
 			jQuery(".footer-logo .text-center img").attr("src", "images/logo.png");
 			return false;
-		});f
+		});
 
 		jQuery(".strong-blue-bg").on('click',function(){
 			jQuery(".logo-header img").attr("src", "images/logo2.png");
