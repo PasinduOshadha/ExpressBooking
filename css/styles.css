@@ -262,6 +262,9 @@ transition: all 250ms ease-in-out 0s;
 	margin-bottom: 3rem !important;;
 }
 
+.mt-5{
+	margin-top: 5rem !important;;
+}
 .signup-btn{
 	background-color: #e75b1e;
 	color: #fff !important;
@@ -284,4 +287,129 @@ transition: all 250ms ease-in-out 0s;
 	border: none !important;
 }
 
+.booking-form-wrapper {
+	background: #fff;
+	-webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.3);
+	width: 100%;
+	margin: auto;
+	padding: 40px 30px;
+}
 
+.booking-form-wrapper .form-group {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.booking-form-wrapper .form-control {
+	background-color: #fff;
+	height: 55px;
+	padding: 0px;
+	padding-top: 15px;
+	color: #181818;
+	font-size: 16px;
+	font-weight: 700;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+	border-radius: 0px;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+}
+
+.booking-form-wrapper .form-control::-webkit-input-placeholder {
+	color: rgba(0, 0, 0, 0.2);
+}
+
+.booking-form-wrapper .form-control:-ms-input-placeholder {
+	color: rgba(0, 0, 0, 0.2);
+}
+
+.booking-form-wrapper .form-control::placeholder {
+	color: rgba(0, 0, 0, 0.2);
+}
+
+.booking-form-wrapper input[type="date"].form-control:invalid {
+	color: rgba(0, 0, 0, 0.2);
+}
+
+.booking-form-wrapper .form-group:not(.input-not-empty) .form-control:not(:focus) {
+	color: #111;
+}
+
+.booking-form-wrapper select.form-control {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.booking-form-wrapper select.form-control+.select-arrow {
+	position: absolute;
+	right: 0px;
+	bottom: 7px;
+	width: 32px;
+	line-height: 32px;
+	height: 32px;
+	text-align: center;
+	pointer-events: none;
+	color: rgba(0, 0, 0, 0.2);
+	font-size: 14px;
+}
+
+.booking-form-wrapper select.form-control+.select-arrow:after {
+	content: '\279C';
+	display: block;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.booking-form-wrapper .form-label {
+	color: rgba(0, 0, 0, 0.2);
+	font-weight: 700;
+	position: absolute;
+	top: -5px;
+	left: 0px;
+	text-transform: uppercase;
+	line-height: 24px;
+	height: 23px;
+	font-size: 16px;
+	pointer-events: none;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+}
+
+.booking-form-wrapper .form-group .form-control:focus+.form-label {
+	top: 0px;
+	color:#e75b1e;
+	font-size: 14px;
+}
+
+.booking-form-wrapper .form-group.input-not-empty .form-label {
+	top: 0px;
+	color:#e75b1e;
+	/* color: #2b9328; */
+	font-size: 14px;
+}
+
+.booking-form-wrapper .submit-btn {
+	color: #fff;
+	background-color: #2b9328;
+	font-weight: 700;
+	height: 55px;
+	padding: 10px 35px;
+	font-size: 18px;
+	border: none;
+	display: block;
+	width: 100%;
+	text-transform: capitalize;
+}
+
+.route-single:hover {
+	background-color: #ff8d1e;
+	color:#fff !important;
+}
+
+.routes-title{
+	font-size: 3em;
+}
