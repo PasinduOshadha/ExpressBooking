@@ -40,13 +40,29 @@
                                             </h3>
                                         </div>
                                     </div>
-                                    <ul class="list-group">
-                                        <li id="" class="list-group-item route-single"><a href="">Cras justo odio</a></li>
-                                        <li id="" class="list-group-item route-single"><a href="">Dapibus ac facilisis in</a></li>
-                                        <li id="" class="list-group-item route-single"><a href="">Morbi leo risus</a></li>
-                                        <li id="" class="list-group-item route-single"><a href="">Porta ac consectetur ac</a></li>
-                                        <li id="" class="list-group-item route-single"><a href="">Vestibulum at eros</a></li>
-                                    </ul>
+                                    
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item list-group-item-action">
+                                            <div class="row">
+                                                <div class="col-md-2">Route No. 231</div>
+                                                <div class="col-md-6">From <code>start</code> To <code>destination</code></div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action">
+                                            <div class="row">
+                                                <div class="col-md-2">Route No. 231</div>
+                                                <div class="col-md-6">From <code>start</code> To <code>destination</code></div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action">
+                                            <div class="row">
+                                                <div class="col-md-2">Route No. 231</div>
+                                                <div class="col-md-6">From <code>start</code> To <code>destination</code></div>
+                                            </div>
+                                        </a>
+                                        
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
