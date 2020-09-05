@@ -38,68 +38,9 @@
                                         </div>
                                         <div class="card-body">
                                             <form>
+                                                
+
                                                 <div id="step-1">
-                                                    <div class="row">
-                                                        <div class="col-md-12">
-                                                            <h1 class="routes-title">
-                                                                <b>Bus Routes</b>
-                                                            </h1>
-                                                            <hr class="" style="opacity: 0;">
-                                                            <h3>
-                                                                From [start] To [destination]
-                                                            </h3>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="list-group">
-                                                        <li class="list-group-item list-group-item-action">
-                                                            <div class="row">
-                                                                <div class="col-md-1 text-right">
-                                                                    <input class="form-check-input" type="radio" name="bus_route" id="bus_route_id_1" value="1">
-                                                                </div>
-                                                                <div class="col-md-8">
-                                                                    <label class="form-check-label" for="bus_route_id_1">
-                                                                        <span class="bus-no">Bus Foute: From <code>start</code> to <code>Destination</code> </span>
-                                                                        <span class=" ml-3 bus-time">Route No: 01</span>
-                                                                    </label>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-
-                                                        <li class="list-group-item list-group-item-action">
-                                                            <div class="row">
-                                                                <div class="col-md-1 text-right">
-                                                                    <input class="form-check-input" type="radio" name="bus_route" id="bus_route_id_2" value="2">
-                                                                </div>
-                                                                <div class="col-md-8">
-                                                                    <label class="form-check-label" for="bus_route_id_2">
-                                                                        <span class="bus-no">Bus Foute: From <code>start</code> to <code>Destination</code> </span>
-                                                                        <span class=" ml-3 bus-time">Route No: 02</span>
-                                                                    </label>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-
-                                                        <li class="list-group-item list-group-item-action">
-                                                            <div class="row">
-                                                                <div class="col-md-1 text-right">
-                                                                    <input class="form-check-input" type="radio" name="bus_route" id="bus_route_id_3" value="3">
-                                                                </div>
-                                                                <div class="col-md-8">
-                                                                    <label class="form-check-label" for="bus_route_id_3">
-                                                                        <span class="bus-no">Bus Foute: From <code>start</code> to <code>Destination</code> </span>
-                                                                        <span class=" ml-3 bus-time">Route No: 03</span>
-                                                                    </label>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                    </div>
-                                                    <div class="mt-5 mb-5">
-                                                        <button type="button" id="next1" class="btn btn-primary btn-lg btn-lg">Next</button>
-                                                    </div>
-                                                </div>
-
-                                                <div id="step-2">
                                                     <div class="row">
                                                         <div class="col-md-12">
                                                             <h1 class="routes-title">
@@ -155,12 +96,12 @@
                                                         </li>
                                                     </div>
                                                     <div class="mt-5 mb-5">
-                                                        <button type="button" id="prev1" class="btn btn-primary btn-lg btn-lg">Previous</button>
-                                                        <button type="button" id="next2" class="btn btn-primary btn-lg btn-lg">Next</button>
+                                                        
+                                                        <button type="button" id="next1" class="btn btn-primary btn-lg btn-lg">Next</button>
                                                     </div>
                                                 </div>
 
-                                                <div id="step-3">
+                                                <div id="step-2">
                                                     <div>
                                                         <div class="row">
                                                             <div class="col-md-12">
@@ -346,15 +287,15 @@
                                                             </div>
                                                         </div>
                                                         <div class="mt-5 mb-5">
-                                                            <button type="button" id="prev2" class="btn btn-primary btn-lg btn-lg">Previous</button>
-                                                            <button type="button" id="next3" class="btn btn-primary btn-lg btn-lg">Confirm Booking</button>
+                                                            <button type="button" id="prev1" class="btn btn-primary btn-lg btn-lg">Previous</button>
+                                                            <button type="button" id="next2" class="btn btn-primary btn-lg btn-lg">Confirm Booking</button>
                                                         </div>
 
 
                                                     </div>
                                                 </div>
 
-                                                <div id="step-4">
+                                                <div id="step-3">
                                                     <div class="row justify-content-center">
                                                         <div class="col-md-6">
                                                             <img src="images/krsWHvd.gif" class="img-fluid" alt="">

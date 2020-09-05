@@ -30,12 +30,6 @@ $(document).ready(function () {
         $('#step-2').show();
     });
 
-    $('#next3').click(function (e) { 
-        e.preventDefault();
-        
-        $('#step-3').hide();
-        $('#step-4').show();
-    });
 });
 
 // form submit
